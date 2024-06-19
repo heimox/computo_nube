@@ -1,6 +1,5 @@
 const http = require('http');
 
-const hostname = '100.24.35.100';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
@@ -9,6 +8,6 @@ const server = http.createServer((req, res) => {
   res.end('Hola, Mundo!\n');
 });
 
-server.listen(port, hostname, () => {
+server.listen(port, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
