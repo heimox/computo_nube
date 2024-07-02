@@ -5,6 +5,6 @@ const server = http.createServer((req, res) => {
   res.end('Hola Mundo\n');
 });
 
-server.listen(80, () => {
-  console.log('Server running at port 22/');
+server.listen(3000, () => {
+  console.log('Server running at port 3000/');
 });
